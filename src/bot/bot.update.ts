@@ -579,7 +579,7 @@ export class BotUpdate implements OnModuleInit {
 
         const quantity = parseInt(text);
         if (isNaN(quantity) || quantity < 0) {
-            await ctx.reply('Iltimos, to\'g\'ri raqam kiriting (0 yoki undan katta)');
+            await ctx.reply('Iltimos, to\'g\'ri raqam  kiriting (0 yoki undan katta)');
             return;
         }
 
